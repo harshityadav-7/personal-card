@@ -4,32 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Card</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="card-container">
-      <header>
-        <h2>Personal</h2>
-        <h2>Card</h2>
-      </header>
-      <section class="profile-pic">
-        <img src="" alt="Profile Picture" />
-      </section>
-      <section>
-        <h2>Harshit Yadav</h2>
-        <h3>@harshityadav_7</h3>
-      </section>
-      <section class="stats">
-        <div class="stats-box">
-            <h3>Question Solved</h3>
-            <h1>2065</h1>
-        </div>
-        <div class="stats-box">
-            <h3>Active Days</h3>
-            <h1>317</h1>
-        </div>
-      </section>
-      <section class="social-links">
-        <h3>You can find me on...</h3>
+    <div class="card">
+      <div class="header">
+        <h1><span class="brand">Perso</span><span class="highlight">nal</span></h1>
+        <h1>CARD</h1>
+      </div>
+
+    <div class="profile">
+      <img src="" class="avatar" />
+      <img src="" class="badge" />
+    </div>
+
+    <h2 class="name">Harshit Yadav <span class="verified">✔</span></h2>
+    <p class="username">@harshityadav_7</p>
+
+    <div class="stats">
+      <div class="stat-box">
+        <p class="label orange">Questions Solved</p>
+        <p class="value">2065</p>
+      </div>
+      <div class="stat-box">
+        <p class="label green">Active Days</p>
+        <p class="value">317</p>
+      </div>
+    </div>
+
+    <div class="social">
+      <p>You can find me on ...</p>
+      <div class="icons">
         <a
           href="https://www.geeksforgeeks.org/user/harshityadav_7/"
           target="_blank"
@@ -57,24 +62,18 @@
         <a href="https://leetcode.com/harshityadav7/" target="_blank"
           ><img src="" alt="Leetcode"
         /></a>
-      </section>
-      <section class="tags">
-        <h3>#JAVA</h3>
-        <h3>C++</h3>
-        <h3>#2STARS</h3>
-        <h3>#DSA</h3>
-        <h3>#NEWBIE</h3>
-        <h3>#KNIGHT</h3>
-      </section>
-      <footer>
-        <a href="https://www.linkedin.com/in/harshityadav76/" target="_blank"
-          ><img src="" alt="LinkedIn"
-        /></a>
-        <a href="mailto:work.harshityadav7@gmail.com" target="_blank"
-          ><img src="" alt="email"
-        /></a>
-        <p>© 2025 Harshit Yadav</p>
-      </footer>
+      </div>
+    </div>
+
+    <div class="tags">
+      <span>#JAVA</span>
+      <span>#C++</span>
+      <span>#2STARS</span>
+      <span>#DSA</span>
+      <span>#NEWBIE</span>
+      <span>#KNIGHT</span>
+    </div>
+
     </div>
   </body>
 </html>
