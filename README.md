@@ -58,6 +58,8 @@ personal-card/
 
 🔗 **Live Website**: [https://harshityadav-7.github.io/personal-card/](https://harshityadav-7.github.io/personal-card/)
 
+📚 **Complete Wiki**: [View Documentation](wiki/Home.md) - Detailed guides for customization, deployment, and troubleshooting
+
 ### How to Use:
 1. Visit the live link above to view the animated profile card
 2. Click on any platform icon to visit the respective coding profile
