@@ -62,12 +62,3 @@ personal-card/
 1. Visit the live link above to view the animated profile card
 2. Click on any platform icon to visit the respective coding profile
 3. Or clone/download and open `index.html` in any modern web browser
-
-### Deploy Your Own:
-1. Fork this repository
-2. Go to Settings → Pages in your GitHub repo
-3. Select "Deploy from a branch" → main branch
-4. Your site will be live at `https://yourusername.github.io/personal-card/`
-
----
-*A complete personal coding profile card ready for showcase!*
