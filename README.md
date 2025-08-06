@@ -1,21 +1,64 @@
 # Personal Profile Card
 
-A basic personal profile card built using HTML and CSS.  
-This is an early version for practicing layout, structure, and styling.
+A modern, dark-themed personal profile card showcasing coding achievements and social presence. Built with HTML5 and CSS3 featuring a sleek design with animated background elements.
 
-## 🔧 What’s Included
+## 🎯 Features
 
-- HTML structure for personal info, stats, and social links
-- Linked `styles.css` for styling
-- Placeholder tags and images (to be added later)
+- **Dark Theme Design**: Modern black/gray color scheme with orange accents
+- **Animated Background**: Rotating SVG web pattern for visual appeal
+- **Profile Section**: Avatar with badge overlay and verified checkmark
+- **Statistics Display**: Coding achievements (Questions Solved: 2065, Active Days: 317)
+- **Social Media Integration**: Links to 7 coding platforms + LinkedIn
+- **Skill Tags**: Technology and achievement badges (#JAVA, #C++, #2STARS, #DSA, #NEWBIE, #KNIGHT)
+- **Responsive Layout**: Centered card design with hover effects
 
-## 📝 Current Progress
+## 🛠️ Technologies Used
 
-- [x] Added class structure for styling
-- [x] Linked external stylesheet
-- [x] Basic layout with name, username, and coding stats
-- [ ] Add profile picture
-- [ ] Add social icon images
-- [ ] Improve styling and responsiveness
+- **HTML5**: Semantic structure with SVG graphics
+- **CSS3**: 
+  - Flexbox layout
+  - CSS animations (rotating background)
+  - Custom styling with gradients and shadows
+  - Hover effects and transitions
+  - Responsive design principles
 
-## 🚧 This README is temporary and will be updated later.
+## 📁 Project Structure
+
+```
+personal-card/
+├── index.html              # Main HTML structure
+├── styles.css              # Complete styling and animations
+├── Pictures/               # Assets folder (10 images)
+│   ├── iron man.jpg        # Profile avatar
+│   ├── CololioLogoImage.png # Profile badge
+│   ├── LinkedInImage.png   # LinkedIn icon
+│   └── coding platform icons (7 files)
+└── README.md               # This file
+```
+
+## 🎨 Design Elements
+
+- **Color Palette**: Dark background (#000), card (#141416), accents (orange #f59e55, green #2ecc71)
+- **Typography**: Segoe UI font family with varied weights
+- **Layout**: Centered card (350px max-width) with rounded corners
+- **Interactive Elements**: Social icon hover effects, linked platforms
+
+## 🔗 Connected Platforms
+
+- LinkedIn
+- GeeksforGeeks  
+- HackerRank
+- Coding Ninjas
+- AtCoder
+- Codeforces
+- CodeChef
+- LeetCode
+
+## 🚀 How to Use
+
+1. Open `index.html` in any modern web browser
+2. View the animated profile card with all social links
+3. Click on any platform icon to visit the respective profile
+
+---
+*A complete personal coding profile card ready for showcase!*
